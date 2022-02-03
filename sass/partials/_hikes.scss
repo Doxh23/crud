@@ -1,0 +1,44 @@
+.data{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+     th, td {
+        border: 1px solid black;
+
+      }
+      .form-hikes{
+         margin: auto;
+         display: flex;
+         width: 100%;
+         justify-content: center;
+      }
+}
+.form-hikes{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    input, select{
+        margin: 10px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+    }
+    input[type=submit]{
+        border: 1px solid black;
+
+    }
+    input[type=submit]:hover{
+        background-color: cadetblue;
+        color: white;
+    }
+ }
+ @media screen and (max-width: 1280px) {
+     
+         .form-hikes{
+            flex-direction: column;
+         }
+     }
+ 

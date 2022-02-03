@@ -1,0 +1,25 @@
+.data{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        border: 1px solid black;
+        color: black;
+        font-size: 40px;
+        input[type=submit]:hover{
+            color: white;
+            background-color: cadetblue;
+        }
+    }
+    form > * {
+        margin: 10px 0;
+        width: auto;
+        height: 25px;
+    }
+}

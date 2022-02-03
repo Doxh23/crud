@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+.data {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.data tr {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */

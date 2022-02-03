@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.index {
+  background-color: paleturquoise;
+}
+
+.index .form-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.index .form-index .login-register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid black;
+  height: 40px;
+  width: 600px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.index .form-index .login-register h2:first-child {
+  border-right: 1px solid black;
+}
+
+.index .form-index .login-register h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+.index .form-index .form-register-login {
+  border: 1px solid black;
+  width: 600px;
+  height: 300px;
+}
+
+.index .form-index .form-register-login .form-register {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.index .form-index .form-register-login .form-register > * {
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.index .form-index .form-register-login input:last-child {
+  background-color: whitesmoke;
+}
+
+.index .form-index .form-register-login input:last-child:hover {
+  background-color: cadetblue;
+}
+
+.index .form-index .form-register-login .form-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.index .form-index .form-register-login .form-login > * {
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.index .form-index .form-register-login input:last-child {
+  background-color: whitesmoke;
+}
+
+.index .form-index .form-register-login input:last-child:hover {
+  background-color: cadetblue;
+}
+
+.hikes {
+  background-color: paleturquoise;
+}
+
+.hikes .data {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.hikes .data th, .hikes .data td {
+  border: 1px solid black;
+}
+
+.hikes .data .form-hikes {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hikes .form-hikes {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hikes .form-hikes input, .hikes .form-hikes select {
+  margin: 10px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+}
+
+.hikes .form-hikes input[type=submit] {
+  border: 1px solid black;
+}
+
+.hikes .form-hikes input[type=submit]:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+@media screen and (max-width: 1280px) {
+  .hikes .form-hikes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.update {
+  background-color: paleturquoise;
+}
+
+.update .data {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.update .data form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 600px;
+  border: 1px solid black;
+  color: black;
+  font-size: 40px;
+}
+
+.update .data form input[type=submit]:hover {
+  color: white;
+  background-color: cadetblue;
+}
+
+.update .data form > * {
+  margin: 10px 0;
+  width: auto;
+  height: 25px;
+}
+/*# sourceMappingURL=style.css.map */
